@@ -3,7 +3,7 @@
 
 ## Database operations
 * Create a new database
-  * `CREATE DATABASE {TEST};`
+  * `CREATE DATABASE {DATABASE_NAME};`
 * Create a new user
   * `CREATE USER '{USERNAME}'@'{HOSTNAME}' IDENTIFIFED BY '{PASSWORD}';`
     * HOSTNAME can be `%` which means any host or `localhost` for local.
