@@ -20,5 +20,5 @@
   * `SHOW GRANTS FORM '{USERNAME}'@'{HOSTNAME}'`
 * Revoke privileges
   * `REVOKE {PRIVILEGE} ON {DATABASE_NAME}.{TABLE_NAME} FROM '{USERNAME}'@'{HOSTNAME};`
-* Drop UserA
+* Drop user
   * `DROP USER '{USERNAME}'@'{HOSTNAME}';`
