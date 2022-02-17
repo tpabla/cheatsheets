@@ -17,7 +17,7 @@
 * Show all current users
   * `SELECT User,Host FROM mysql.user;`
 * Show all current privileges
-  * `SHOW GRANTS FORM '{USERNAME}'@'{HOSTNAME}'`
+  * `SHOW GRANTS FORM '{USERNAME}'@'{HOSTNAME}';`
 * Revoke privileges
   * `REVOKE {PRIVILEGE} ON {DATABASE_NAME}.{TABLE_NAME} FROM '{USERNAME}'@'{HOSTNAME};`
 * Drop user
